@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="mavenprojectswaglabselenium.contiueShopping"/>
+      <class name="mavenprojectswaglabselenium.goToFacebook"/>
+      <class name="mavenprojectswaglabselenium.addToCart"/>
+      <class name="mavenprojectswaglabselenium.LoginFail"/>
+      <class name="mavenprojectswaglabselenium.goToLinkedin"/>
+      <class name="mavenprojectswaglabselenium.removeProduct"/>
+      <class name="mavenprojectswaglabselenium.scrollToTwitter"/>
+      <class name="mavenprojectswaglabselenium.LoginSwag"/>
+      <class name="mavenprojectswaglabselenium.ErrorMessage"/>
+      <class name="mavenprojectswaglabselenium.backToHome"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
